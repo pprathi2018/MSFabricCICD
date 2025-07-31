@@ -6,11 +6,13 @@ model Model
 		legacyRedirects
 		returnErrorValuesAsNull
 
-annotation PBIDesktopVersion = 2.119.870.0 (23.07)
+annotation PBIDesktopVersion = 2.146.7742.2 (Main)+d57fcea754f2b31db2a6b627cd49dc54ee4973e5
 
 annotation __PBI_TimeIntelligenceEnabled = 1
 
 annotation PBI_QueryOrder = ["Customers","Categories","Orders","Order_Details","Products"]
+
+annotation PBI_ProTooling = ["WebModelingEdit"]
 
 ref table DateTableTemplate_8340ca1c-13cc-417d-881d-176281d89ad3
 ref table Customers
